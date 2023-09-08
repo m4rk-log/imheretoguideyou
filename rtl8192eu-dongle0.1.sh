@@ -1,5 +1,5 @@
 #update,upgrade,autoremove
-sudo apt update -y && apt upgrade -y && apt autremove -y 
+sudo apt update -y && apt upgrade -y && apt autoremove -y 
 
 #linux headers 
 sudo apt-get install git linux-headers-generic build-essential dkms -y && git clone https://github.com/Mange/rtl8192eu-linux-driver
